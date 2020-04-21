@@ -9,7 +9,7 @@ Follow this steps:
 ## How it works
 When the [TokenController](Controllers/TokenController.cs) receives username and password, it verifies those credentials and, if valid, it creates a `ClaimsIdentity` that's set to current HttpContext.
 
-The [JwtTokenMiddleware](Middlewares/JwtTokenMiddleware.cs), just before a response is produced, checks whether an authenticated `ClaimsIdentity` exists. If so, then produces a JWT Token using the claims found in that identity and adds it to the response as a `X-Token` header.
+The [JwtTokenMiddleware](Middlewares/JwtTokenMiddleware.cs), just before a response is produced, checks whether an authenticated `ClaimsIdentity` exists. If so, then produces a JWT Token using the claims found in that identity and adds it to the response as a `token` header.
 The client must save this token and send it back in a subsequent request in a `Authorization: Bearer TOKEN-HERE` header to prove its identity without actually sending username and password again.
 
 The [UserDataController](Controllers/UserDataController.cs) is protected from anonymous access by the `[Authorize]` attribute. The client will be able to invoke it only when authenticated, that is when providing a valid JWT Token. 

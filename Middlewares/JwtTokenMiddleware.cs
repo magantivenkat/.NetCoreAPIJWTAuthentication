@@ -33,7 +33,7 @@ namespace JwtTokenDemo.Middlewares {
 
         private StringValues CreateTokenForIdentity(ClaimsIdentity identity)
         {
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("MySecretKey"));
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("MySecureSecretKey"));
 		    var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
             var token = new JwtSecurityToken(issuer: "Issuer",
                                              audience: "Audience",

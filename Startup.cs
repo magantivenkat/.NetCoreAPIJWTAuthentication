@@ -41,7 +41,7 @@ namespace JwtTokenDemo
                     ValidIssuer = "Issuer",
                     ValidAudience = "Audience",
                     IssuerSigningKey = new SymmetricSecurityKey(
-                        Encoding.UTF8.GetBytes("MiaChiaveSegreta")
+                        Encoding.UTF8.GetBytes("MySecureSecretKey")
                     ),
                     ClockSkew = TimeSpan.Zero
                 };
@@ -54,7 +54,7 @@ namespace JwtTokenDemo
                 config.SwaggerDoc("v1", new Info { Title = "My API", Version = "v1" });
                 config.AddSecurityDefinition("JWT Bearer Token", new ApiKeyScheme()
                 {
-                    Description = "In the box below type <code> Bearer </code> followed by a space and the token obtained from /api/Token. Example:<strong><code>Bearer eyJhbGci...</code></strong><br><br><br><br>",
+                    Description = "In the box below type <code> Bearer </code> followed by a space and the token obtained from /api/Token. Example:<strong><code>Bearer eyJhbGci...</code></strong><br><br>",
                     Name = "Authorization",
                     In = "header",
                     Type = "apiKey"

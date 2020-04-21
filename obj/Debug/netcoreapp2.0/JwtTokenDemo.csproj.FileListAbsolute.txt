@@ -1,0 +1,15 @@
+D:\source\jwtauth\AspNetCoreWebApiJwtTokenDemo\bin\Debug\netcoreapp2.0\appsettings.Development.json
+D:\source\jwtauth\AspNetCoreWebApiJwtTokenDemo\bin\Debug\netcoreapp2.0\appsettings.json
+D:\source\jwtauth\AspNetCoreWebApiJwtTokenDemo\bin\Debug\netcoreapp2.0\JwtTokenDemo.deps.json
+D:\source\jwtauth\AspNetCoreWebApiJwtTokenDemo\bin\Debug\netcoreapp2.0\JwtTokenDemo.runtimeconfig.json
+D:\source\jwtauth\AspNetCoreWebApiJwtTokenDemo\bin\Debug\netcoreapp2.0\JwtTokenDemo.runtimeconfig.dev.json
+D:\source\jwtauth\AspNetCoreWebApiJwtTokenDemo\bin\Debug\netcoreapp2.0\JwtTokenDemo.dll
+D:\source\jwtauth\AspNetCoreWebApiJwtTokenDemo\bin\Debug\netcoreapp2.0\JwtTokenDemo.pdb
+D:\source\jwtauth\AspNetCoreWebApiJwtTokenDemo\obj\Debug\netcoreapp2.0\JwtTokenDemo.csprojAssemblyReference.cache
+D:\source\jwtauth\AspNetCoreWebApiJwtTokenDemo\obj\Debug\netcoreapp2.0\JwtTokenDemo.csproj.CoreCompileInputs.cache
+D:\source\jwtauth\AspNetCoreWebApiJwtTokenDemo\obj\Debug\netcoreapp2.0\JwtTokenDemo.AssemblyInfoInputs.cache
+D:\source\jwtauth\AspNetCoreWebApiJwtTokenDemo\obj\Debug\netcoreapp2.0\JwtTokenDemo.AssemblyInfo.cs
+D:\source\jwtauth\AspNetCoreWebApiJwtTokenDemo\obj\Debug\netcoreapp2.0\JwtTokenDemo.dll
+D:\source\jwtauth\AspNetCoreWebApiJwtTokenDemo\obj\Debug\netcoreapp2.0\JwtTokenDemo.pdb
+D:\source\jwtauth\AspNetCoreWebApiJwtTokenDemo\obj\Debug\netcoreapp2.0\JwtTokenDemo.genruntimeconfig.cache
+D:\source\jwtauth\AspNetCoreWebApiJwtTokenDemo\bin\Debug\netcoreapp2.0\Properties\launchSettings.json

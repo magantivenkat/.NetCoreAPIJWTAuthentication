@@ -17,7 +17,7 @@ namespace JwtTokenDemo.Controllers
         [HttpGet]
         public UserDataResponse Get()
         {
-            return new UserDataResponse { FirstName = "Venkata", LastName = "Maganti", Gender = "Male", Age = 37 };
+            return new UserDataResponse { FirstName = "Venkata", LastName = "Maganti", Gender = "Male", Age = 37, Message = "Successfully Authenticated by JWT" };
         }
     }
 }

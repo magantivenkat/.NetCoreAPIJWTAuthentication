@@ -1,7 +1,7 @@
 ## Getting started
 Follow this steps:
  1. Download and run the application with the `dotnet run` command. The swagger UI interface will appear;
- 2. Execute a POST request to the /api/Token endpoint, using `Admin` as the username and `Password` as the password. The server will provide a JWT Token in the `X-Token` response header;
+ 2. Execute a POST request to the /api/Token endpoint, using `test` as the username and `test` as the password. The server will provide a JWT Token in the `X-Token` response header;
  3. Copy the JWT Token, then click the `Authorize` button that's on top of the page;
  4. Type `Bearer YOUR-JWT-TOKEN` in the textbox and click the green `Authorize` button, then close;
  5. Execute a GET request to the /api/UserData endpoint, and verify it's returning data as long as the token is valid. Notice how a fresh token is sent with each request. Each token has an expiration time of 2 minutes, configurable in the [JwtTokenMiddleware](Middlewares/JwtTokenMiddleware.cs) class. After that (or if you skipped steps 3 and 4), the /api/UserData endpoint will return a 401 Unauthorized error.
